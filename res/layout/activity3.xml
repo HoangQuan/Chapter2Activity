@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button 
+        android:id="@+id/btn_webbrowsers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Trình Duyệt"
+        />
+    <Button 
+        android:id="@+id/btn_makecalls"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo cuộc gọi"
+        />
+    <Button 
+        android:id="@+id/btn_showmaps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Bản đồ"
+        />
+    <Button 
+        android:id="@+id/btn_choosecontact"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Tên Liên Lạc"
+        />
+
+</LinearLayout>
