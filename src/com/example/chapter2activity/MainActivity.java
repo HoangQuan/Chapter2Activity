@@ -1,16 +1,5 @@
 package com.example.chapter2activity;
 
-import java.io.InputStream;
-import java.net.URL;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.entity.BufferedHttpEntity;
-import org.apache.http.impl.client.DefaultHttpClient;
-
-import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -153,9 +142,7 @@ public class MainActivity extends Activity {
 								@Override
 								public void onClick(DialogInterface dialog, int which, boolean isChecked) {
 									Toast.makeText(getBaseContext(), 
-											items[which] + (isChecked ? "checked!":"unchecked!"), Toast.LENGTH_SHORT).show();
-
-									
+											items[which] + (isChecked ? "checked!":"unchecked!"), Toast.LENGTH_SHORT).show();							
 								}
 							}
     						)
